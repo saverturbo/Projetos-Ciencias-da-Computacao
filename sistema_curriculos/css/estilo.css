@@ -1,0 +1,263 @@
+/* Limpar espaçamento dos elementos. */
+* {
+	padding: 0px;
+	margin: 0px;
+	text-decoration-style: none;
+	list-style: none;
+}
+
+/* Elementos pré-definidos. */
+h1,h2,h3,h4,h5,h6 {
+	margin: 16px 0px;
+
+	color: rgba(0,0,0,0.87);
+}
+p {
+	margin: 16px 0px;
+	color: rgba(0,0,0,0.71);
+}
+ul {
+	list-style-type: square; 
+}
+
+/* Barra de navegação. */
+.navbar {
+
+	background-color: #2196DF;
+	display: flex;
+
+	box-shadow: 0px 7px 10px rgba(0,0,0,0.20);
+
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.navbar > .right {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.navbar a.item, .navbar > a.header {
+	padding: 16px;
+	margin: 0px;
+	display: inline-block;
+
+	color: rgba(255,255,255,0.54);
+
+	border-bottom: 2px solid transparent;
+
+	font-family: sans-serif;
+	font-size: 14px;
+
+	text-decoration: none;
+
+	transition: background-color 0.5s;
+}
+.navbar > a.header {
+	color: rgba(255,255,255,0.87);
+
+	font-weight: bold;
+
+	transition: none;
+}
+.navbar > a.header:hover {
+	background-color: transparent;
+}
+.navbar a.active {
+	background-color: rgba(255,255,255,0.20);
+
+	color: white;
+
+	border-bottom: 2px solid white;
+}
+
+.navbar a:hover {
+	background-color: rgba(255,255,255,0.10);
+}
+
+/* Conteúdo da página. */
+.container {
+	padding-left: 20%;
+	padding-right: 20%;
+
+	margin-top: 32px;
+	margin-bottom: 32px;
+
+	background-color: white;
+
+	font-family: sans-serif;
+}
+
+/* Alertas. */
+.error {
+	padding: 4px 16px;
+
+	background-color: rgba(255, 50, 50, 0.32);
+
+	border-radius: 4px;
+}
+.error p {
+	color: rgba(0,0,0,0.54);
+
+	font-weight: bold;
+}
+.success {
+	padding: 4px 16px;
+
+	background-color: rgba(50, 255, 50, 0.32);
+
+	border-radius: 4px;
+}
+.success p {
+	color: rgba(0,0,0,0.54);
+
+	font-weight: bold;
+}
+
+/* Tabela. */
+table {
+	width: 100%;
+
+	font-size: 14px;
+
+	/*text-transform: uppercase;*/
+}
+table, th, td {
+	border: 0px solid rgba(0,0,0,0.54);
+	border-collapse: collapse;
+
+	padding: 8px;
+
+	text-align: left;
+}
+th {
+	color: rgba(0,0,0,0.87);
+}
+td {
+	color: rgba(0,0,0,0.87);
+}
+
+/* Botões. */
+.button {
+	width: 100px;
+
+	padding: 4px 16px;
+
+	background-color: white;
+
+	cursor: pointer;
+
+	font-size: 14px;
+}
+
+.button.green {
+	color: rgba(80, 200, 80, 1);
+
+	text-decoration: none;
+
+	border: 1px solid rgba(80, 200, 80, 1);
+}
+.button.green:hover {
+	background-color: rgba(80, 200, 80, 1);
+
+	color: white;
+}
+
+.button.blue {
+	color: rgba(50, 100, 255, 0.87);
+
+	text-decoration: none;
+
+	border: 1px solid rgba(50, 100, 255, 0.87);
+}
+.button.blue:hover {
+	background-color: rgba(50, 100, 255, 0.87);
+
+	color: white;
+}
+
+.button.red {
+	color: rgba(255, 50, 50, 0.87);
+
+	text-decoration: none;
+
+	border: 1px solid rgba(255, 50, 50, 0.87);
+}
+.button.red:hover {
+	background-color: rgba(255, 50, 50, 0.87);
+
+	color: white;
+}
+
+/* Textos */
+.text-primary {
+	color: rgba(0,0,0,0.87);
+}
+.text-secondary {
+	color: rgba(0,0,0,0.71);
+}
+
+/* Formulário */
+form .field {
+	margin: 16px 0px;
+}
+
+form .field label {
+	display: inline-block;
+	width: 150px;
+
+	color: rgba(0,0,0,0.87);
+
+	text-align: right;
+
+	font-weight: bold;
+
+}
+form .field input[type=text], form .field input[type=number], form .field select {
+	width: 350px;
+	padding: 8px 8px;
+	margin-left: 16px;
+
+	display: inline-block;
+	outline: none;
+	box-sizing: content-box;
+
+	border: 1px solid rgba(0,0,0,0.32);
+	border-radius: 4px;
+
+	transition: border-color 0.5s;
+}
+form .field input:focus {
+	border-color: #2196df
+}
+form .field .radios {
+	width: 350px;
+	margin-left: 16px;
+
+	display: inline-block;
+}
+form .field .radios input[type=radio]:not(:first-child) {
+	margin-left: 16px;
+}
+/* Listas */
+.container ul li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+/* Fieldset. */
+fieldset {
+	padding: 0px 32px;
+
+	border: 1px groove rgba(0,0,0,0.15);
+}
+fieldset legend {
+	padding: 0px 16px;
+
+	text-align: center;
+}
+
+/* Botões. */
+.buttons {
+	text-align: center;
+}

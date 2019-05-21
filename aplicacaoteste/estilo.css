@@ -1,0 +1,25 @@
+
+H4,H5{ 
+		color: blue; 
+		font-size : 1em ;
+	 	font-family: sans-serif; 
+	} 
+
+Tr { 
+		
+		font-size : 1em ;
+	 	font-family: sans-serif;
+	}
+
+Input{ 
+		border: 1px solid; 
+		border-radius: 4px; 
+		margin:2px; 
+		padding:5px; 
+	} 
+Select{ 
+		border: 1px solid; 
+		border-radius: 4px; 
+		margin:2px; 
+		padding:5px; 
+	} 

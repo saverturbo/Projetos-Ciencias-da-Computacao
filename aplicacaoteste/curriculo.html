@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Curriculo</title>
+	<link rel="stylesheet" type="text/css"href="estilo.css" />
+</head>
+<body>
+	<center><h4>Preencha seus dados abaixo:</h4></center>
+	<form  action="/aplicacaoteste/curriculo.html" method="post">
+		<table>
+			<h5>Dados Pessoais:</h5>
+		<tr>
+			<td>Nome:</td>
+			<td><input type="text" name="nome" required="true"></td>
+		</tr>
+		<tr>
+			<td>Idade:</td>
+			<td><input type="number" name="idade" required="true"></td>
+		</tr>
+		<tr>
+			<td>Endereco:</td>
+			<td><input type="text" name="endereco" required="true"></td>
+		</tr>
+		<tr>
+			<td>Telefone:</td>
+			<td><input type="text" name="telefone" required="true"></td>
+		</tr>
+		<tr>
+			<td>Escolaridade:</td>
+			<td>
+				<select name = "profissao">
+					<option>Selecione</option>
+					<option>Fundamental</option>
+                    <option>Medio</option>
+                    <option>Superior</option>
+				</select>
+			</td>
+		</tr>
+		</table>
+		<hr>
+		<table>
+		<h5>Experiencia Profissional:</h5>
+		<tr>
+			<td>Emprego 1:</td>
+			<td><input type="text" name="emprego1" ></td>
+		</tr>
+		<tr>
+			<td>Duracao em anos:</td>
+			<td><input type="number" name="tempo1"></td>
+		</tr>
+		<tr>
+			<td>Emprego 2:</td>
+			<td><input type="text" name="emprego2" ></td>
+		</tr>
+		<tr>
+			<td>Duracao em anos:</td>
+			<td><input type="number" name="tempo1"></td>
+		</tr>
+		<tr>
+			<td>Emprego 3:</td>
+			<td><input type="text" name="emprego3"></td>
+		</tr>
+		<tr>
+			<td>Duracao em anos:</td>
+			<td><input type="number" name="tempo1"></td>
+		</tr>
+		<tr>
+				<td></td>
+				<td><input type="submit" value="Enviar"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
